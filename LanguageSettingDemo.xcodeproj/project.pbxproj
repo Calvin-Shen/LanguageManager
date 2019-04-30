@@ -14,6 +14,13 @@
 		3E12FE08227826E10007372C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E12FE06227826E10007372C /* LaunchScreen.storyboard */; };
 		3E12FE0B227826E10007372C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E12FE0A227826E10007372C /* main.m */; };
 		3E12FE15227826E10007372C /* LanguageSettingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E12FE14227826E10007372C /* LanguageSettingDemoUITests.m */; };
+		3E12FE21227826EE0007372C /* LanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E12FE20227826EE0007372C /* LanguageManager.m */; };
+		3E12FE252278289B0007372C /* LanguageSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E12FE242278289B0007372C /* LanguageSettingTableViewController.m */; };
+		3E12FE2C22782B230007372C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E12FE2E22782B230007372C /* InfoPlist.strings */; };
+		3E12FE3222782BC90007372C /* testImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E12FE3422782BC90007372C /* testImage.jpg */; };
+		3E12FE46227835190007372C /* LanguageSettingTableVC.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E12FE48227835190007372C /* LanguageSettingTableVC.strings */; };
+		3E12FE4C227835360007372C /* ViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E12FE4E227835360007372C /* ViewController.strings */; };
+		3E12FE53227844E00007372C /* StoryboardAutoGenStrings.py in Resources */ = {isa = PBXBuildFile; fileRef = 3E12FE52227844E00007372C /* StoryboardAutoGenStrings.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,22 @@
 		3E12FE10227826E10007372C /* LanguageSettingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageSettingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E12FE14227826E10007372C /* LanguageSettingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageSettingDemoUITests.m; sourceTree = "<group>"; };
 		3E12FE16227826E10007372C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E12FE1F227826EE0007372C /* LanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageManager.h; sourceTree = "<group>"; };
+		3E12FE20227826EE0007372C /* LanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageManager.m; sourceTree = "<group>"; };
+		3E12FE232278289B0007372C /* LanguageSettingTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanguageSettingTableViewController.h; sourceTree = "<group>"; };
+		3E12FE242278289B0007372C /* LanguageSettingTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageSettingTableViewController.m; sourceTree = "<group>"; };
+		3E12FE2B22782B0C0007372C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3E12FE2D22782B230007372C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E12FE2F22782B250007372C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		3E12FE3322782BC90007372C /* en */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = en; path = en.lproj/testImage.jpg; sourceTree = "<group>"; };
+		3E12FE3522782BCB0007372C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "zh-Hans"; path = "zh-Hans.lproj/testImage.jpg"; sourceTree = "<group>"; };
+		3E12FE42227830C40007372C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		3E12FE43227830D80007372C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		3E12FE47227835190007372C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LanguageSettingTableVC.strings; sourceTree = "<group>"; };
+		3E12FE492278351B0007372C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LanguageSettingTableVC.strings"; sourceTree = "<group>"; };
+		3E12FE4D227835360007372C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ViewController.strings; sourceTree = "<group>"; };
+		3E12FE4F227835370007372C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ViewController.strings"; sourceTree = "<group>"; };
+		3E12FE52227844E00007372C /* StoryboardAutoGenStrings.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = StoryboardAutoGenStrings.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +104,19 @@
 		3E12FDFA227826E00007372C /* LanguageSettingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3E12FE51227844E00007372C /* Resources */,
+				3E12FE22227826FA0007372C /* LanguageManager */,
 				3E12FDFB227826E00007372C /* AppDelegate.h */,
 				3E12FDFC227826E00007372C /* AppDelegate.m */,
 				3E12FDFE227826E00007372C /* ViewController.h */,
 				3E12FDFF227826E00007372C /* ViewController.m */,
+				3E12FE4E227835360007372C /* ViewController.strings */,
+				3E12FE232278289B0007372C /* LanguageSettingTableViewController.h */,
+				3E12FE242278289B0007372C /* LanguageSettingTableViewController.m */,
+				3E12FE48227835190007372C /* LanguageSettingTableVC.strings */,
 				3E12FE01227826E00007372C /* Main.storyboard */,
+				3E12FE3422782BC90007372C /* testImage.jpg */,
+				3E12FE2E22782B230007372C /* InfoPlist.strings */,
 				3E12FE04227826E10007372C /* Assets.xcassets */,
 				3E12FE06227826E10007372C /* LaunchScreen.storyboard */,
 				3E12FE09227826E10007372C /* Info.plist */,
@@ -103,6 +134,23 @@
 			path = LanguageSettingDemoUITests;
 			sourceTree = "<group>";
 		};
+		3E12FE22227826FA0007372C /* LanguageManager */ = {
+			isa = PBXGroup;
+			children = (
+				3E12FE1F227826EE0007372C /* LanguageManager.h */,
+				3E12FE20227826EE0007372C /* LanguageManager.m */,
+			);
+			path = LanguageManager;
+			sourceTree = "<group>";
+		};
+		3E12FE51227844E00007372C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E12FE52227844E00007372C /* StoryboardAutoGenStrings.py */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -113,6 +161,7 @@
 				3E12FDF4227826E00007372C /* Sources */,
 				3E12FDF5227826E00007372C /* Frameworks */,
 				3E12FDF6227826E00007372C /* Resources */,
+				3E12FE54227847C40007372C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -166,6 +215,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 3E12FDEF227826E00007372C;
 			productRefGroup = 3E12FDF9227826E00007372C /* Products */;
@@ -183,9 +233,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E12FE53227844E00007372C /* StoryboardAutoGenStrings.py in Resources */,
 				3E12FE08227826E10007372C /* LaunchScreen.storyboard in Resources */,
+				3E12FE4C227835360007372C /* ViewController.strings in Resources */,
 				3E12FE05227826E10007372C /* Assets.xcassets in Resources */,
 				3E12FE03227826E00007372C /* Main.storyboard in Resources */,
+				3E12FE46227835190007372C /* LanguageSettingTableVC.strings in Resources */,
+				3E12FE3222782BC90007372C /* testImage.jpg in Resources */,
+				3E12FE2C22782B230007372C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +253,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E12FE54227847C40007372C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "python /Users/calvin/Desktop/StudyDemo/LanguageSettingDemo/LanguageSettingDemo/Resources/StoryboardAutoGenStrings.py  ${SRCROOT}/${TAEGET_NAME}/LanguageSettingDemo/\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E12FDF4227826E00007372C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -205,7 +280,9 @@
 			files = (
 				3E12FE00227826E00007372C /* ViewController.m in Sources */,
 				3E12FE0B227826E10007372C /* main.m in Sources */,
+				3E12FE252278289B0007372C /* LanguageSettingTableViewController.m in Sources */,
 				3E12FDFD227826E00007372C /* AppDelegate.m in Sources */,
+				3E12FE21227826EE0007372C /* LanguageManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +309,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				3E12FE02227826E00007372C /* Base */,
+				3E12FE42227830C40007372C /* en */,
+				3E12FE43227830D80007372C /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -240,8 +319,45 @@
 			isa = PBXVariantGroup;
 			children = (
 				3E12FE07227826E10007372C /* Base */,
+				3E12FE2B22782B0C0007372C /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3E12FE2E22782B230007372C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E12FE2D22782B230007372C /* en */,
+				3E12FE2F22782B250007372C /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E12FE3422782BC90007372C /* testImage.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E12FE3322782BC90007372C /* en */,
+				3E12FE3522782BCB0007372C /* zh-Hans */,
+			);
+			name = testImage.jpg;
+			sourceTree = "<group>";
+		};
+		3E12FE48227835190007372C /* LanguageSettingTableVC.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E12FE47227835190007372C /* en */,
+				3E12FE492278351B0007372C /* zh-Hans */,
+			);
+			name = LanguageSettingTableVC.strings;
+			sourceTree = "<group>";
+		};
+		3E12FE4E227835360007372C /* ViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E12FE4D227835360007372C /* en */,
+				3E12FE4F227835370007372C /* zh-Hans */,
+			);
+			name = ViewController.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -251,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -310,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

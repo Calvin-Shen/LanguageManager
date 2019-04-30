@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  LanguageSettingDemo
+
+  Created by 沈宸 on 4/30/19.
+  Copyright © 2019 Calvin. All rights reserved.
+*/
+
+CFBundleDisplayName = "语言设置";

@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "多语言"; ObjectID = "9II-6B-Mds"; */
+"9II-6B-Mds.normalTitle" = "多语言";
+
+/* Class = "UILabel"; text = "这是句本地化语言"; ObjectID = "Ou6-rI-FMV"; */
+"Ou6-rI-FMV.text" = "这是句本地化语言";
+
+/* Class = "UIBarButtonItem"; title = "自定义返回"; ObjectID = "ijP-ki-0K5"; */
+"ijP-ki-0K5.title" = "自定义返回";

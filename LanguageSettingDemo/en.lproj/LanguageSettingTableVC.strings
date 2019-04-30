@@ -1,0 +1,12 @@
+/* 
+  LanguageSettingTableVC.strings
+  LanguageSettingDemo
+
+  Created by 沈宸 on 4/30/19.
+  Copyright © 2019 Calvin. All rights reserved.
+*/
+
+"en" = "English";
+"zh-Hans" = "Chinese(Simplified)";
+
+"Language" = "Language";
