@@ -21,6 +21,12 @@ typedef void (^LanguageChangeBlock)(void);
  */
 + (instancetype)sharedInstance;
 
+
+/**
+ 还原成系统语言
+ */
++ (void)resetSystemLanguage;
+
 /**
  设置app支持的语言,默认支持zh-Hans,en
  */

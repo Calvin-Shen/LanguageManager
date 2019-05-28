@@ -29,6 +29,12 @@
     return manager;
 }
 
++ (void)resetSystemLanguage{
+    [[NSUserDefaults standardUserDefaults] removeObjectForKey:LANGUAGE_KEY];
+    [[NSUserDefaults standardUserDefaults] setObject:nil forKey:@"AppleLanguages"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
 - (instancetype)init
 {
     self = [super init];
@@ -49,6 +55,12 @@
 
 - (void)setCurrentLanguge:(NSString *)currentLanguge
 {
+    if (!currentLanguge.length) {
+        [LanguageManager resetSystemLanguage];
+        if (_languageChangeBlock)
+            _languageChangeBlock();
+        return;
+    }
     // 如果与当前的相同，则跳过
     if ([_currentLanguge isEqualToString:currentLanguge])
     {
@@ -70,9 +82,10 @@
         [[NSUserDefaults standardUserDefaults] setObject:_currentLanguge forKey:LANGUAGE_KEY];
         // 设置这一句可以让storyboard和图片等资源本地化
         [[NSUserDefaults standardUserDefaults] setObject:@[_currentLanguge] forKey:@"AppleLanguages"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        if (_languageChangeBlock)
+            _languageChangeBlock();
     }
-    if (_languageChangeBlock)
-        _languageChangeBlock();
 }
 
 // 初始化当前支持的语言

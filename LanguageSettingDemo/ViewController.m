@@ -10,6 +10,7 @@
 #import "LanguageManager/LanguageManager.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
@@ -19,6 +20,8 @@
     [super viewDidLoad];
     
     self.navigationItem.title = LanguageString(@"HomePage", @"ViewController");
+    
+    self.imageView.image = [UIImage imageNamed:NSLocalizedString(@"testImage.jpg", nil)];
 }
 
 

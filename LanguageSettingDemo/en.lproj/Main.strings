@@ -7,3 +7,17 @@
 
 /* Class = "UIBarButtonItem"; title = "自定义返回"; ObjectID = "ijP-ki-0K5"; */
 "ijP-ki-0K5.title" = "Customize Return";
+
+//##################################################################################
+//#           StoryboardAutoGenStrings        2019-04-30 17:13:44
+//##################################################################################
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WJr-Ex-3He"; */
+//"WJr-Ex-3He.normalTitle" = "Button";
+
+//##################################################################################
+//#           StoryboardAutoGenStrings        2019-04-30 17:20:37
+//##################################################################################
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cbE-Wt-i8v"; */
+"cbE-Wt-i8v.text" = "Label";

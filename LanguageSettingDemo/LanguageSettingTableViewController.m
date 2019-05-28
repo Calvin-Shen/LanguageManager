@@ -69,10 +69,13 @@
         [[LanguageManager sharedInstance] setCurrentLanguge:@"zh-Hans"];
     }
     
-    UINavigationController *navi = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"rootNavi"];
+    UINavigationController *navi = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateInitialViewController];
     UIViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"vc"];
     LanguageSettingTableViewController *tableVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"languagesettingVC"];
-    navi.viewControllers = @[vc,tableVC];
+    navi.viewControllers = @[vc];
+//    NSMutableArray *array = [navi.viewControllers mutableCopy];
+//    [array addObject:tableVC];
+//    navi.viewControllers = array;
     [UIApplication sharedApplication].keyWindow.rootViewController = navi;
 }
 /*
